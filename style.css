@@ -4,6 +4,20 @@ body{
     background-color: #FDDA00;
 }
 
+.section1{
+    z-index: 9;
+}
+
+.sideBar{
+    z-index: 9;
+    height: 100vh;
+    width: 65px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff
+}
+
 .section2{
     display:flex;
     flex-direction: row;
@@ -110,17 +124,20 @@ body{
 
 
 
-.sneezingPanda{
+.sneezingPanda{ 
     z-index: 0;
     align-self: center;
     position: absolute;
-    padding-left: 505px;
+    padding-left: 445px;
     opacity: 0%;
+    content: url("");
 }
+
 
 .censor:active + .sneezingPanda{
     opacity: 100%;
     z-index: 6;
+    content: url("/Images/sneezingPanda.gif");
 }
 
 .section3{
