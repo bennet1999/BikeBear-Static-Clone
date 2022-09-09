@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body{
+    background-color: #FDDA00;
+}
+
+.section2{
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.bearGIF{
+    top:0;
+    padding-top: 25px;
+    padding-left: 12px;
+    width: 80px;
+    height: 120px;
+}
+
+.section2Text1{
+    top:0;
+    padding-top: 275px;
+    padding-left: 95px;
+    width: 320px;
+    height: auto;
+}
+
+.bearBanner{
+    top:0;
+    padding-top: 90px;
+    padding-left: 50px;
+    height: 570px;
+    width: auto;
+}
+
+.section2Text2{
+    top:0;
+    padding-top: 460px;
+    padding-left: 85px;
+    width: 320px;
+    height: auto;
+}
+
+/*================= SWING ==================================*/
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(1deg); }
+    100% { transform: rotate(-1deg); }
+}
+
+/*===================================================*/
+
+
+
+.overlay1{
+    z-index: 5;
+    position: absolute;
+    color: #fff;
+    font-size: 72px;
+    font-family: open Sans;
+    align-self: center;
+    padding-left: 350px;
+    padding-top: 20px;
+}
+
+.censor{
+    align-self: center;
+    z-index: 5;
+    position: absolute;
+    padding-top: 440px;
+    padding-left: 655px;
+}
+
+.censor img{
+    
+    content: url("/Images/dontClick2.png");
+    cursor: pointer;
+}
+
+.censor img:hover{
+    content: url("/Images/dontClick1.png");
+    cursor: pointer;
+}
+
+
+
+.sneezingPanda{
+    z-index: 0;
+    align-self: center;
+    position: absolute;
+    padding-left: 505px;
+    opacity: 0%;
+}
+
+.censor:active + .sneezingPanda{
+    opacity: 100%;
+    z-index: 6;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+
+.section3Text1{
+    font-family: Open Sans;
+    padding-left: 39%;
+}
