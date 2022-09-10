@@ -9,7 +9,26 @@ body{
     z-index: 9;
 }
 
-.sideBar{
+.sideBar1{
+    z-index: 9;
+    height: 100%;
+    width: 65px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.section1 .sideBar1 img{
+    width: 80%;
+    margin-top: 292px;
+}
+
+.section1 .sideBar1 img:hover{
+    cursor: pointer;
+}
+
+.sideBar2{
     z-index: 9;
     height: 100%;
     width: 65px;
@@ -19,30 +38,30 @@ body{
     background-color: #fff
 }
 
-.section1 .sideBar .hamburger{
+.section1 .sideBar2 .hamburger{
     height: 100px;
 }
 
-.section1 .sideBar .hamburger img{
+.section1 .sideBar2 .hamburger img{
     margin-top: 22px;
     width: 60%;
     margin-left: 15px;
     transition: 0.5s;
 }
 
-.section1 .sideBar .hamburger img:hover{
+.section1 .sideBar2 .hamburger img:hover{
     content: url("/Images/sideBarHamburger2.png");
     margin-top: 20px;
     cursor: pointer;
 }
 
-.section1 .sideBar .section1Text1{
+.section1 .sideBar2 .section1Text1{
     margin-top: 215px;
     margin-left: 25px;
     width: 38%;
 }
 
-.section1 .sideBar .section1Text1:hover{
+.section1 .sideBar2 .section1Text1:hover{
     cursor: pointer;
 }
 
