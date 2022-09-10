@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 body{
     background-color: #FDDA00;
@@ -268,4 +269,26 @@ body{
 
 .section3 .sliderRight .slideTrackRight .slide img:hover{
     transform: translateZ(30px);
+}
+
+/*=================== S E C T I O N --- 4 =====================*/
+
+.section4{
+    margin-top: 150px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section4 .info h3{
+    margin-left: 80px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: open Sans;
+}
+
+.section4 .info p{
+    margin-left: 80px;
+    font-family: Poppins;
+    font-weight: 400;
 }
