@@ -10,12 +10,38 @@ body{
 
 .sideBar{
     z-index: 9;
-    height: 100vh;
+    height: 100%;
     width: 65px;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     background-color: #fff
+}
+
+.section1 .sideBar .hamburger{
+    height: 100px;
+}
+
+.section1 .sideBar .hamburger img{
+    margin-top: 22px;
+    width: 60%;
+    margin-left: 15px;
+}
+
+.section1 .sideBar .hamburger img:hover{
+    content: url("/Images/sideBarHamburger2.png");
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.section1 .sideBar .section1Text1{
+    margin-top: 215px;
+    margin-left: 25px;
+    width: 38%;
+}
+
+.section1 .sideBar .section1Text1:hover{
+    cursor: pointer;
 }
 
 .section2{
@@ -128,7 +154,7 @@ body{
     z-index: 0;
     align-self: center;
     position: absolute;
-    padding-left: 445px;
+    margin-left: 445px;
     opacity: 0%;
     content: url("");
 }
@@ -146,7 +172,9 @@ body{
     flex-direction: column;
 }
 
-.section3Text1{
+.section3Text1 h2{
+    font-style: oblique;
+    font-size: 23px;
     font-family: Open Sans;
-    padding-left: 39%;
+    margin-left: 39.5%;
 }
