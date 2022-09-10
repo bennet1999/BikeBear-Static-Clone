@@ -208,7 +208,7 @@ body{
 
 .section3 .sliderLeft .slideTrackLeft .slide img{
     width: 100%;
-    height: 120px;
+    height: 14 0px;
     transition: transform 0.4s;
 }
 
@@ -225,56 +225,12 @@ body{
     }
 }
 
-@keyframes scrollRight{
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(calc(-250px * 6));
-    }
-}
 
-.section3 .sliderRight{
-    height: 120px;
-    margin: auto;
-    position: relative;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    overflow: hidden ;
-    transform: rotate(-2deg);
-}
-
-
-.section3 .sliderRight .slideTrackRight{
-    display: flex;
-    width: calc(350px * 12);
-    animation: scrollRight 6s linear infinite;
-}
-
-.section3 .sliderRight .slideTrackRight .slide{
-    height: 150px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    padding: 0 25px 25px 25px;
-    perspective: 100px;
-}
-
-.section3 .sliderRight .slideTrackRight .slide img{
-    width: 100%;
-    height: 120px;
-    transition: transform 0.4s;
-}
-
-.section3 .sliderRight .slideTrackRight .slide img:hover{
-    transform: translateZ(30px);
-}
 
 /*=================== S E C T I O N --- 4 =====================*/
 
 .section4{
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: 70px;
     display: flex;
     flex-direction: row;
@@ -291,4 +247,84 @@ body{
     margin-left: 80px;
     font-family: Poppins;
     font-weight: 400;
+}
+
+.section4 .info .buttons{
+    margin-top: 25px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section4 .info .buttons div{
+    width: 145px;
+}
+
+.section4 .info .buttons a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: open Sans;
+    color: black;
+    background-color: #0EFF86;
+    padding: 7px 12px;
+    border: #000;
+    border-style: solid;
+    border-width: 4px;
+    transition: 0.5s;
+}
+
+.section4 .info .buttons a:hover{
+    border: none;
+}
+
+/*============================= S E C T I O N ---- 5 =========================*/
+
+
+.section5{
+    margin-top: 0px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section5 .info h3{
+    margin-left: 155px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: open Sans;
+}
+
+.section5 .info p{
+    margin-left: 80px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.section5 .info .buttons{
+    margin-top: 25px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section5 .info .buttons .one + .two + .three{
+    width: auto;
+}
+
+.section5 .info .buttons a{
+    width: 120px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: open Sans;
+    color: black;
+    background-color: #0EFF86;
+    padding: 7px 12px;
+    border: #000;
+    border-style: solid;
+    border-width: 4px;
+    transition: 0.5s;
+}
+
+.section5 .info .buttons a:hover{
+    border: none;
 }
