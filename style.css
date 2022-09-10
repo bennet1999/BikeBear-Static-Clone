@@ -27,6 +27,7 @@ body{
     margin-top: 22px;
     width: 60%;
     margin-left: 15px;
+    transition: 0.5s;
 }
 
 .section1 .sideBar .hamburger img:hover{
@@ -178,6 +179,7 @@ body{
     font-size: 23px;
     font-family: Open Sans;
     margin-left: 39.5%;
+    margin-bottom: 40px;
 }
 
 .section3 .sliderLeft{
@@ -327,4 +329,80 @@ body{
 
 .section5 .info .buttons a:hover{
     border: none;
+}
+
+.section5 .polarBear {
+    transform: scale(1);
+}
+
+/*============================= S E C T I O N ---- 5 =========================*/
+
+
+.section6{
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 .info h3{
+    margin-left: 155px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: open Sans;
+}
+
+.section6 .info p{
+    margin-left: 80px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.section6 .info .buttons{
+    margin-top: 25px;
+    margin-left: 670px;
+    margin-bottom: 40px;
+}
+
+
+
+.section6 .info .buttons a{
+    width: 120px;
+    text-decoration: none;
+    font-family: open Sans;
+    color: black;
+    background-color: #0EFF86;
+    padding: 7px 12px;
+    border: #000;
+    border-style: solid;
+    border-width: 4px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.section6 .info .buttons a:hover{
+    border: none;
+}
+
+.section6 .polarBear {
+    width: 550px;
+    margin-left:470px;
+}
+
+.section6 .info h3{
+    margin-left: 600px;
+}
+
+.section6 .info img{
+    margin-left: 450px;
+}
+
+.section6 .info p{
+    text-align: center;
+}
+
+#lasth3{
+    margin-top: 80px;
+    margin-left: 680px;
+    font-size: 18px;
 }
