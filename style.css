@@ -238,7 +238,7 @@ body{
 
 .section3 .sliderLeft .slideTrackLeft .slide img:hover{
     transform: translateZ(30px);
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 @keyframes scrollLeft{
@@ -512,12 +512,14 @@ body{
 .section9{
     height: auto;
     background-color: #000;
+    padding-bottom: 70px;
     
 }
 
 .section9 .portfolioHeadings{
     padding-top: 120px;
     text-align: center;
+    margin-bottom: 90px;
 }
 
 .section9 .portfolioHeadings a{
@@ -548,4 +550,23 @@ body{
   .section9 .portfolioHeadings a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  .section9 .portfolioImages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 195px;
+    margin-bottom: 50px;
+  }
+
+  .section9 .portfolioImages img{
+    margin-right: 95px;
+  }
+
+
+  .section9 .portfolioImages p{
+    font-family: open Sans;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
   }
