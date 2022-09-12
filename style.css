@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 body{
+    margin: 0;
     background-color: #FDDA00;
+    overflow-x: hidden;
 }
 
 .section1{
@@ -504,3 +506,9 @@ body{
 
 
 /*======================= S E C T I O N - 9 ========================= */
+
+.section9{
+    height: 100vh;
+    background-color: #000;
+}
+
