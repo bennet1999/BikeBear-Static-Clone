@@ -238,6 +238,7 @@ body{
 
 .section3 .sliderLeft .slideTrackLeft .slide img:hover{
     transform: translateZ(30px);
+    cursor: pointer;
 }
 
 @keyframes scrollLeft{
