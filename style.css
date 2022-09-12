@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 body{
@@ -473,3 +473,34 @@ body{
         transform: translateX(calc(-250px * 4));
     }
 }
+
+.section8{
+    height: 70vh;
+}
+
+.section8 #portfolioText{
+    margin-top: 125px;
+}
+
+.section8 #portfolioText h1{
+    font-family: open Sans;
+    font-size: 250px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 7px;
+}
+
+
+.section8 #captionText h2{
+    font-family: open Sans;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+
+/*======================= S E C T I O N - 9 ========================= */
