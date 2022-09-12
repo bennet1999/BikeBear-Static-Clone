@@ -570,3 +570,41 @@ body{
     text-decoration: none;
     color: #fff;
   }
+
+  /*================================ S E C T I O N - 1 0 ============================*/
+
+  .section10{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding-top: 60px;
+  }
+
+  .section10 .footerBear{
+    margin-left: 160px;
+  }
+  .section10 .footerBear img{
+    width: 160px;
+  }
+
+  .section10 .speakToBearImg{
+    margin-left: 150px;
+  }
+
+  .section10 .email{
+    font-size: 22px;
+    font-family: open Sans;
+  }
+
+  .section10 .contactInfo{
+    margin-top: 15px;
+    margin-left: 205px;
+  }
+
+
+  .section10 .contactNumber{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
