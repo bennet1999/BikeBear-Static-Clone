@@ -59,7 +59,7 @@ body{
 }
 
 .section1 .sideBar2 .section1Text1{
-    margin-top: 215px;
+    margin-top: 200px;
     margin-left: 25px;
     width: 38%;
 }
@@ -552,6 +552,10 @@ body{
     transform-origin: bottom left;
   }
 
+  #websiteHeading{
+    text-decoration: underline 5px #FDDA00;
+  }
+
   .section9 .portfolioImages{
     display: flex;
     flex-direction: row;
@@ -569,6 +573,14 @@ body{
     font-size: 22px;
     text-decoration: none;
     color: #fff;
+  }
+
+  .section9 .portfolioImages p{
+    cursor: pointer;
+  }
+
+  .section9 .portfolioImages img{
+    cursor: pointer;
   }
 
   /*================================ S E C T I O N - 1 0 ============================*/
@@ -591,14 +603,21 @@ body{
     margin-left: 150px;
   }
 
-  .section10 .email{
-    font-size: 22px;
-    font-family: open Sans;
-  }
-
   .section10 .contactInfo{
     margin-top: 15px;
     margin-left: 205px;
+  }
+
+  .section10 .contactInfo a{
+    font-size: 22px;
+    font-family: open Sans;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 40px;
+  }
+
+  .section10 .contactInfo a:hover{
+    cursor: pointer;
   }
 
 
@@ -606,5 +625,23 @@ body{
     font-family: poppins;
     font-size: 14px;
     font-weight: 400;
-    margin: 0;
+}
+
+.section10 .contactNumber:hover{
+    text-decoration: underline;
+    color: rgb(76, 76, 34);
+    cursor: pointer;
+}
+
+/*======================== S E C T I O N - 1 1 ===========================*/
+.section11{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.section11 p{
+    text-align: center;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 14px;
 }
